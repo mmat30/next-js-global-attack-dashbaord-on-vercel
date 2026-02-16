@@ -1,0 +1,16 @@
+export const GLOBE_CONFIG = {
+  devicePixelRatio: 2,
+  width: 600,
+  height: 600,
+  phi: 0,
+  theta: 0.3,
+  dark: 1,
+  diffuse: 1.2,
+  mapSamples: 16000,
+  mapBrightness: 6,
+  baseColor: [0.15, 0.4, 0.2] as [number, number, number],
+  markerColor: [0.4, 1, 0.5] as [number, number, number],
+  glowColor: [0.1, 0.3, 0.15] as [number, number, number],
+  scale: 1,
+  offset: [0, 0] as [number, number],
+} as const
